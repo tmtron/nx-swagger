@@ -29,3 +29,9 @@ example code from: https://github.com/nestjs/nest/tree/master/sample/11-swagger/
 * start the client: `npm run start`
 * open the client: http://localhost:4200
 * open the swagger-ui: http://localhost:4200/api/
+
+
+## Issue
+[#902: Typescript Enum array raises CircularDependencyError](
+https://github.com/nestjs/swagger/issues/902)
+
