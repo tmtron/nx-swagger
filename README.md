@@ -1,5 +1,7 @@
 # NxSwagger
 
+Repo to reproduce [902: Typescript Enum array raises CircularDependencyError](https://github.com/nestjs/swagger/issues/902)
+
 ## init nestjs swagger
 * https://docs.nestjs.com/openapi/introduction
 
@@ -20,6 +22,12 @@
             "webpackConfig": "apps/api/webpack.config.js",
 
 ```
+
+## nest-cli vs. webpack
+Note, that the occurs in this repo (with webpack).  
+It does not occur when we use nest-cli: 
+see https://github.com/tmtron/nestjs-swagger-902
+
 
 ## example
 example code from: https://github.com/nestjs/nest/tree/master/sample/11-swagger/src
