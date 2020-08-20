@@ -1,3 +1,4 @@
+
 export enum RoleEnum {
   Admin = 'Admin',
   Moderator = 'Moderator',
@@ -6,12 +7,6 @@ export enum RoleEnum {
 
 
 export class CreateCatDto {
-  readonly name: string;
-
-  readonly age: number;
-
-  readonly breed: string;
-
   /**
    * using an enum array causes this exception:
    *
