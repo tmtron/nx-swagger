@@ -1,9 +1,4 @@
-
-export enum RoleEnum {
-  Admin = 'Admin',
-  Moderator = 'Moderator',
-  User = 'User'
-}
+import {RoleEnum} from "./role-enum";
 
 
 export class CreateCatDto {
