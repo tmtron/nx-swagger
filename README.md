@@ -28,6 +28,10 @@ Note, that the occurs in this repo (with webpack).
 It does not occur when we use nest-cli: 
 see https://github.com/tmtron/nestjs-swagger-902
 
+The branch [workaround_nx2147-587168523](https://github.com/tmtron/nx-swagger/tree/workaround_nx2147-587168523)
+ contains a workaround:  
+see [nx issue 2147 comment-587168523](https://github.com/nrwl/nx/issues/2147#issuecomment-587168523)
+
 
 ## example
 example code from: https://github.com/nestjs/nest/tree/master/sample/11-swagger/src
